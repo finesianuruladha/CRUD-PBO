@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font untuk seluruh halaman */
+    background-color: #f9f9f9; /* Mengatur warna latar belakang halaman */
+    margin: 0; /* Menghapus margin default */
+    padding: 0; /* Menghapus padding default */
+}
+
+.container {
+    width: 80%; /* Mengatur lebar kontainer menjadi 80% dari lebar jendela */
+    margin: auto; /* Mengatur margin secara otomatis untuk menengah kontainer */
+    padding: 20px; /* Menambahkan padding di dalam kontainer */
+}
+
+header {
+    text-align: center; /* Menyelaraskan teks di tengah */
+    margin-bottom: 20px; /* Menambahkan jarak bawah pada header */
+}
+
+h1 {
+    font-size: 2.5em; /* Ukuran font untuk judul utama */
+    color: #333; /* Mengatur warna teks judul */
+}
+
+h2 {
+    margin-top: 20px; /* Menambahkan jarak atas untuk judul submenu */
+    font-size: 1.5em; /* Ukuran font untuk judul menu yang lebih kecil */
+    color: #ff0000; /* Mengatur warna teks menjadi merah */
+}
+
+.create-order, .view-orders, .edit-orders {
+    background: #fff; /* Mengatur warna latar belakang menjadi putih */
+    border-radius: 10px; /* Membulatkan sudut kotak */
+    padding: 20px; /* Menambahkan padding di dalam kotak */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk kedalaman visual */
+    margin-bottom: 20px; /* Menambahkan jarak bawah antar kotak */
+    border: 1px solid #ddd; /* Menambahkan border pada kotak */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin: 10px 0 5px; /* Menambahkan margin atas dan bawah pada label */
+}
+
+input, textarea {
+    width: calc(100% - 20px); /* Mengatur lebar input dan textarea, memperhitungkan padding */
+    padding: 10px; /* Menambahkan padding di dalam input dan textarea */
+    border: 1px solid #ccc; /* Mengatur border pada input dan textarea */
+    border-radius: 5px; /* Membulatkan sudut input dan textarea */
+    margin-bottom: 15px; /* Menambahkan jarak bawah pada input dan textarea */
+}
+
+button {
+    background-color: #007bff; /* Mengatur warna latar belakang tombol */
+    color: white; /* Mengatur warna teks tombol */
+    border: none; /* Menghapus border default tombol */
+    padding: 10px 15px; /* Menambahkan padding pada tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Mengubah warna latar belakang tombol saat hover */
+}
+
+table {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus spasi antara border tabel */
+    margin-top: 20px; /* Menambahkan jarak atas untuk tabel */
+}
+
+th, td {
+    padding: 10px; /* Menambahkan padding pada sel tabel */
+    text-align: left; /* Menyelaraskan teks di kiri untuk sel tabel */
+    border-bottom: 1px solid #ccc; /* Menambahkan border bawah pada sel tabel */
+}
+
+th {
+    background-color: #ff0000; /* Mengatur warna latar belakang header tabel menjadi merah */
+    color: white; /* Mengatur warna teks header tabel menjadi putih */
+}
+
+.view-orders table, .create-order table, .edit-orders table {
+    border: 1px solid #ddd; /* Menambahkan border pada tabel dalam bagian ini */
+}
+
+th, td {
+    border-right: 1px solid #ddd; /* Menambahkan border kanan pada sel tabel */
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* Menghapus border kanan pada kolom terakhir */
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Menambahkan efek hover pada baris tabel */
+}
+
+/* Menu Ayam Geprek */
+.menu {
+    text-align: center; /* Menyelaraskan teks menu di tengah */
+    margin-bottom: 40px; /* Menambahkan jarak bawah untuk bagian menu */
+}
+
+.menu table {
+    margin: 0 auto; /* Mengatur tabel menu menjadi rata tengah */
+    margin-top: 20px; /* Menambahkan jarak atas untuk tabel menu */
+    width: 50%; /* Mengatur ukuran tabel menu menjadi lebih kecil */
+    border: 1px solid #ddd; /* Menambahkan border pada tabel menu */
+}
+
+.menu th, .menu td {
+    text-align: center; /* Menyelaraskan teks di tengah untuk sel tabel menu */
+    padding: 10px; /* Menambahkan padding pada sel tabel menu */
+    border-bottom: 1px solid #ccc; /* Menambahkan border bawah pada sel tabel menu */
+}
